@@ -1,6 +1,7 @@
 # Allay 模板实战：构建主页文章列表
 
 本指南将通过构建一个显示两篇文章的主页，串联讲解 Commands、Layouts、Scope 和 Variables 的实际应用。
+非开发用户无需关注涉及templates文件夹的内容。
 
 ## 项目结构
 
@@ -21,7 +22,9 @@ templates/
 
 ## 第一步：创建文章内容
 
-### 第一篇文章 `content/post-1/index.md`
+先创建两篇文章，放在 `content/post-1/index.md` 和 `content/post-2/index.md`。
+
+#### 第一篇文章 `content/post-1/index.md`
 ```markdown
 ---
 title: "Allay 模板系统入门指南"
@@ -34,7 +37,7 @@ tags: ["allay", "模板", "入门"]
 这里是文章的完整内容...
 ```
 
-### 第二篇文章 `content/post-2/index.md`
+#### 第二篇文章 `content/post-2/index.md`
 ```markdown
 ---
 title: "高级模板技巧与最佳实践"
@@ -52,6 +55,7 @@ tags: ["allay", "高级", "性能"]
 注：非模版开发用户无需关注
 
 `templates/base.html`:
+
 ```html
 <!DOCTYPE html>
 <html lang="zh-CN">
@@ -83,6 +87,7 @@ tags: ["allay", "高级", "性能"]
 ## 第三步：创建文章卡片组件
 
 `templates/components/post-card.md`:
+
 ```markdown
 {--
   文章卡片组件
@@ -118,6 +123,7 @@ tags: ["allay", "高级", "性能"]
 ## 第四步：创建主页模板
 
 `templates/index.html`:
+
 ```html
 {- extends "base.html" -}
 
@@ -168,6 +174,7 @@ tags: ["allay", "高级", "性能"]
 ## 第五步：创建主页内容
 
 `content/index.md`:
+
 ```markdown
 ---
 title: "欢迎来到我的技术博客"
@@ -204,9 +211,17 @@ template: index.html
 ```
 
 ### 4. Layouts（布局）管理
+
 - **基础布局**: `base.html` 提供整体页面结构
 - **模板继承**: `index.html` 继承并重写内容块
 - **组件化**: `post-card.md` 可重用的文章卡片
+
+详细用法请参见：
+
+- [Commands 指令详解](./commands.md)
+- [Scope 作用域详解](./scope.md)
+- [Variables 变量详解](./variables.md)
+- [Layouts 布局详解](./layouts.md)
 
 ## 最终渲染结果
 

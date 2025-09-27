@@ -1,7 +1,7 @@
 site_name: Allay Wiki
-site_url: https://your-username.github.io/your-repo-name/  # 替换为你的实际URL
+site_url: https://pkusoftwareengineeringteam.github.io/Axolotl-Wiki/  # 替换为你的实际URL
 site_description: Allay 文档中心
-repo_url: https://github.com/your-username/your-repo-name  # 替换为你的仓库URL
+repo_url: https://github.com/pkusoftwareengineeringteam/Axolotl-Wiki  # 替换为你的仓库URL
 edit_uri: edit/main/docs/  # 启用页面编辑功能
 
 theme:
@@ -17,16 +17,17 @@ theme:
     - search.highlight
     - content.tabs
     - content.code.copy
+    - content.code.line-numbers
   palette:
     - scheme: default
-      primary: indigo
-      accent: indigo
+      primary: black
+      accent: blue
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: grey
+      accent: blue
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -42,7 +43,7 @@ nav:
   - 自定义内容:
     - 概述: custom-contents/index.md
     - 创建页面: custom-contents/create-pages.md
-    - Front Matter: custom-contents/front-matter.md
+    - 前置内容: custom-contents/front-matter.md
   - 自定义主题:
     - 概述: custom-themes/index.md
     - 主题结构: custom-themes/structure.md
@@ -80,7 +81,7 @@ copyright: |
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/your-username/your-repo-name
+      link: https://github.com/pkusoftwareengineeringteam/Axolotl-Wiki
     - icon: fontawesome/brands/discord
       link: https://discord.gg/your-invite-link
   analytics:
@@ -88,4 +89,4 @@ extra:
     property: G-XXXXXXXXXX  # 可选：Google Analytics
 
 # 仓库信息
-repo_name: your-repo-name  # 替换为你的仓库名
+repo_name: Axolotl-Wiki
