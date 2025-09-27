@@ -1,0 +1,7 @@
+# Default Allay site configuration
+baseUrl = "http://axolotl.wiki"
+title = "Axolotl Wiki"
+theme = "Axolotl"
+description = "Official Axolotl Wiki"
+author = "Allay Developer"
+[params]
