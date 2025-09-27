@@ -1,0 +1,91 @@
+site_name: Allay Wiki
+site_url: https://your-username.github.io/your-repo-name/  # 替换为你的实际URL
+site_description: Allay 文档中心
+repo_url: https://github.com/your-username/your-repo-name  # 替换为你的仓库URL
+edit_uri: edit/main/docs/  # 启用页面编辑功能
+
+theme:
+  name: material
+  logo: assets/logo.png  # 可选：添加logo
+  favicon: assets/favicon.ico  # 可选：添加favicon
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.tabs
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+# 导航配置
+nav:
+  - 首页: index.md
+  - 快速开始:
+    - 介绍: getting-started/index.md
+    - 文件结构: getting-started/file-structure.md
+  - 配置:
+    - 配置指南: configuration/index.md
+  - 自定义内容:
+    - 概述: custom-contents/index.md
+    - 创建页面: custom-contents/create-pages.md
+    - Front Matter: custom-contents/front-matter.md
+  - 自定义主题:
+    - 概述: custom-themes/index.md
+    - 主题结构: custom-themes/structure.md
+  - Allay 模板:
+    - 概述: allay-template/index.md
+    - 命令: allay-template/commands.md
+    - 布局: allay-template/layouts.md
+    - 作用域: allay-template/scope.md
+    - 变量: allay-template/variables.md
+  - 扩展功能:
+    - 短代码: extra-functions/shortcode.md
+
+# 插件配置
+plugins:
+  - search
+
+# 扩展配置
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.arithmatex:
+      generic: true
+
+# 版权信息
+copyright: |
+  &copy; 2024 Allay Project. 文档采用 <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> 许可。
+
+# 额外配置
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/your-username/your-repo-name
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/your-invite-link
+  analytics:
+    provider: google
+    property: G-XXXXXXXXXX  # 可选：Google Analytics
+
+# 仓库信息
+repo_name: your-repo-name  # 替换为你的仓库名
