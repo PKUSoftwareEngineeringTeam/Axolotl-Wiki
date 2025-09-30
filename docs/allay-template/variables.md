@@ -23,7 +23,7 @@ Allay 模板中的所有变量类型包括：
 Allay 模板中的所有变量应以 `$` 开头。定义变量的语法如下：
 
 ```html
-{- set $my_variable "Hello, World" -}
+{- set $my_variable = "Hello, World" -}
 <p>{: $my_variable :}</p>
 ```
 
@@ -54,6 +54,6 @@ Allay 模板中的所有变量应以 `$` 开头。定义变量的语法如下：
 <p>{: this.name :}</p>       <!-- 输出 "Alice" -->
 <p>{: .name :}</p>           <!-- 省略 "this"，输出 "Alice" -->
 <p>{: .address.city :}</p>   <!-- 输出 "Wonderland" -->
-{- set $addr .address -}
+{- set $addr = .address -}
 <p>{: $addr.zip :}</p>       <!-- 输出 "12345" -->
 ```

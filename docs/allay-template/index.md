@@ -140,7 +140,7 @@ tags: ["allay", "高级", "性能"]
 <section class="recent-posts">
     <h2>最新文章</h2>
     
-    {- set $recent_posts (slice site.Pages 0 2) -}
+    {- set $recent_posts = (slice site.Pages 0 2) -}
     
     {- if $recent_posts -}
     <div class="posts-grid">
@@ -157,7 +157,7 @@ tags: ["allay", "高级", "性能"]
     <h3>博客统计</h3>
     <p>总共 {: len site.Pages :} 篇文章</p>
     
-    {- set $all_tags (list) -}
+    {- set $all_tags = (list) -}
     {- for $post: site.Pages -}
         {- if $post.tags -}
             {- for $tag: $post.tags -}
@@ -195,7 +195,7 @@ template: index.html
 
 ### 2. Commands（命令）使用
 ```html
-{- set $recent_posts (slice site.Pages 0 2) -}  <!-- 设置变量 -->
+{- set $recent_posts = (slice site.Pages 0 2) -}  <!-- 设置变量 -->
 {- for $post: $recent_posts -}                  <!-- 循环遍历 -->
 {- if $post.tags -}                            <!-- 条件判断 -->
 {- include "components/post-card.md" $post -}   <!-- 包含组件 -->
