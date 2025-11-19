@@ -4,6 +4,9 @@ site_description: Allay 文档中心
 repo_url: https://github.com/pkusoftwareengineeringteam/Axolotl-Wiki  # 替换为你的仓库URL
 edit_uri: edit/main/docs/  # 启用页面编辑功能
 
+# 文档目录配置
+docs_dir: docs  # 指定文档目录为docs
+
 theme:
   name: material
   logo: assets/logo.png  # 可选：添加logo
@@ -50,7 +53,7 @@ nav:
   - Allay 模板:
     - 概述: allay-template/index.md
     - 命令: allay-template/commands.md
-    - 布局: allay-template/layouts.md
+    - 布局: allay-template/layout.md
     - 作用域: allay-template/scope.md
     - 变量: allay-template/variables.md
     - 实战: allay-template/practice.md
