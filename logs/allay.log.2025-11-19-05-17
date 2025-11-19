@@ -1,0 +1,69 @@
+2025-11-19T05:17:43.183339Z  WARN ThreadId(03) allay_publish::generate::impls: Failed to compile "/Users/henrygao/Desktop/25fall/软件工程/Axolotl-Wiki/themes/Axolotl/custom/blog.html": Template parsing error:   --> 58:23
+   |
+58 |           {- for $p : GLOBAL.PAGES -}
+   |                       ^---
+   |
+   = expected unary
+2025-11-19T05:17:43.220150Z  WARN ThreadId(03) allay_publish::generate::impls: Failed to compile "/Users/henrygao/Desktop/25fall/软件工程/Axolotl-Wiki/themes/Axolotl/custom/blog.html": Template parsing error:   --> 58:23
+   |
+58 |           {- for $p : GLOBAL.PAGES -}
+   |                       ^---
+   |
+   = expected unary
+2025-11-19T05:17:43.265784Z  WARN ThreadId(03) allay_publish::generate::impls: Failed to recompile "/Users/henrygao/Desktop/25fall/软件工程/Axolotl-Wiki/themes/Axolotl/custom/blog.html": Template parsing error:   --> 58:23
+   |
+58 |           {- for $p : GLOBAL.PAGES -}
+   |                       ^---
+   |
+   = expected unary
+2025-11-19T05:17:43.294594Z  WARN ThreadId(03) allay_publish::generate::impls: Failed to recompile "/Users/henrygao/Desktop/25fall/软件工程/Axolotl-Wiki/themes/Axolotl/custom/blog.html": Template parsing error:   --> 58:23
+   |
+58 |           {- for $p : GLOBAL.PAGES -}
+   |                       ^---
+   |
+   = expected unary
+2025-11-19T05:17:43.326287Z  WARN ThreadId(03) allay_publish::generate::impls: Failed to recompile "/Users/henrygao/Desktop/25fall/软件工程/Axolotl-Wiki/themes/Axolotl/custom/blog.html": Template parsing error:   --> 58:23
+   |
+58 |           {- for $p : GLOBAL.PAGES -}
+   |                       ^---
+   |
+   = expected unary
+2025-11-19T05:17:52.640415Z  WARN ThreadId(03) allay_publish::generate::impls: Failed to compile "/Users/henrygao/Desktop/25fall/软件工程/Axolotl-Wiki/themes/Axolotl/custom/blog.html": Template parsing error:   --> 58:23
+   |
+58 |           {- for $p : GLOBAL.PAGES -}
+   |                       ^---
+   |
+   = expected unary
+2025-11-19T05:17:52.651814Z  WARN ThreadId(02) allay_publish::generate::impls: Failed to recompile "/Users/henrygao/Desktop/25fall/软件工程/Axolotl-Wiki/themes/Axolotl/custom/blog.html": Template parsing error:   --> 58:23
+   |
+58 |           {- for $p : GLOBAL.PAGES -}
+   |                       ^---
+   |
+   = expected unary
+2025-11-19T05:17:52.666086Z  WARN ThreadId(03) allay_publish::generate::impls: Failed to recompile "/Users/henrygao/Desktop/25fall/软件工程/Axolotl-Wiki/themes/Axolotl/custom/blog.html": Template parsing error:   --> 58:23
+   |
+58 |           {- for $p : GLOBAL.PAGES -}
+   |                       ^---
+   |
+   = expected unary
+2025-11-19T05:17:52.682558Z  WARN ThreadId(03) allay_publish::generate::impls: Failed to recompile "/Users/henrygao/Desktop/25fall/软件工程/Axolotl-Wiki/themes/Axolotl/custom/blog.html": Template parsing error:   --> 58:23
+   |
+58 |           {- for $p : GLOBAL.PAGES -}
+   |                       ^---
+   |
+   = expected unary
+2025-11-19T05:17:52.700514Z  WARN ThreadId(03) allay_publish::generate::impls: Failed to recompile "/Users/henrygao/Desktop/25fall/软件工程/Axolotl-Wiki/themes/Axolotl/custom/blog.html": Template parsing error:   --> 58:23
+   |
+58 |           {- for $p : GLOBAL.PAGES -}
+   |                       ^---
+   |
+   = expected unary
+2025-11-19T05:17:52.718359Z  WARN ThreadId(03) allay_publish::generate::impls: Failed to recompile "/Users/henrygao/Desktop/25fall/软件工程/Axolotl-Wiki/themes/Axolotl/custom/blog.html": Template parsing error:   --> 58:23
+   |
+58 |           {- for $p : GLOBAL.PAGES -}
+   |                       ^---
+   |
+   = expected unary
+2025-11-19T05:17:53.018267Z  WARN main ThreadId(01) serving the site: allay_plugin::config: Failed to read config file for plugin 'auth-plugin': File not found: plugin.toml
+2025-11-19T05:17:53.018337Z  WARN main ThreadId(01) serving the site: allay_plugin::config: No config found for plugin 'auth-plugin'
+2025-11-19T05:17:53.020406Z  WARN main ThreadId(01) serving the site: allay_plugin::bus: Error handling async event: error returned from database: (code: 14) unable to open database file

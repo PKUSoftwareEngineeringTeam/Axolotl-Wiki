@@ -31,3 +31,26 @@ public
 └── projects
     └── project1.html   # 来自 projects/project1.md
 ```
+
+如果你采用了类似的多级目录，并写有多个对应的[模版布局](../allay-template/layout.md),那么你可以在目录的index文件和其他文件中采用不同的template配置。比如：
+
+```md
+# public/blog/index.html
+---
+title: My School Blog 
+template: index.html
+---
+
+Welcome to my school series! This is the index page.
+```
+
+```md
+# public/blog/first-post.html
+---
+title: Orientation Day
+template: page.html
+---
+
+Hello, this is my first post of this series.
+...
+```

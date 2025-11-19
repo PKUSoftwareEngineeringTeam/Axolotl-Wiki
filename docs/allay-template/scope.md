@@ -80,13 +80,13 @@ Hello, this is a test page.
 </div>
 ```
 
-对于`index.html`，可以通过 `site` 对象的 `PAGES` 字段访问所有页面。`PAGES` 是所有 markdown 页面组成的数组，每个页面都具有上述相同的作用域。
+对于`index.html`，可以通过 `site` 对象的 `pages` 字段访问所有页面。`pages` 是所有 markdown 页面组成的数组，每个页面都具有上述相同的作用域。
 
 在 `index.html` 中列出所有页面的示例：
 
 ```html
 <ul>
-    {- for $page: site.PAGES -}
+    {- for $page: site.pages -}
         {- with $page -}
         <li>
             <a href="{: .url :}">{: .title :}</a>

@@ -2,11 +2,9 @@
 
 所有的 Allay 模板都应放在 `templates` 目录下。你至少需要包含以下默认模板：
 
-- `index.html`：主索引页模板。
-- `404.html`：404 错误页模板。
 - `page.html`：常规页面的默认模板。
 
-当 markdown [front matter](../custom-contents/front-matter.md) 中未指定 url 字段时，Allay 会使用 `page.html` 模板渲染页面。
+当 markdown--[front matter](../custom-contents/front-matter.md) 中未指定 url 字段时，Allay 会使用 `page.html` 模板渲染页面。
 
 ### 自定义模板布局
 

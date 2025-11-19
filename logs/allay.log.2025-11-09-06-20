@@ -1,0 +1,5 @@
+2025-11-09T06:20:38.835102Z  WARN main ThreadId(01) serving the site: allay_plugin::config: Failed to read config file for plugin 'auth-plugin': File not found: plugin.toml
+2025-11-09T06:20:38.835205Z  WARN main ThreadId(01) serving the site: allay_plugin::config: No config found for plugin 'auth-plugin'
+2025-11-09T06:20:38.835617Z  WARN ThreadId(05) allay_publish::generate::traits: Error reading file in cold start in "/Users/henrygao/Desktop/25fall/软件工程/Axolotl-Wiki/themes/Axolotl/static": IO error for operation on /Users/henrygao/Desktop/25fall/软件工程/Axolotl-Wiki/themes/Axolotl/static: No such file or directory (os error 2)
+2025-11-09T06:20:38.836456Z  WARN ThreadId(05) allay_publish::generate::traits: Failed to watch directory "/Users/henrygao/Desktop/25fall/软件工程/Axolotl-Wiki/themes/Axolotl/static": No path was found. about ["/Users/henrygao/Desktop/25fall/软件工程/Axolotl-Wiki/themes/Axolotl/static"]
+2025-11-09T06:20:38.839236Z  WARN main ThreadId(01) serving the site: allay_plugin::bus: Error handling async event: error returned from database: (code: 14) unable to open database file

@@ -1,0 +1,37 @@
+2025-11-19T14:20:29.705023Z  WARN main ThreadId(01) serving the site: allay_plugin: Failed to read plugin directory "/Users/henrygao/Desktop/25fall/软件工程/Axolotl-Wiki/plugins": File not found: /Users/henrygao/Desktop/25fall/软件工程/Axolotl-Wiki/plugins
+2025-11-19T14:20:29.727371Z  WARN ThreadId(13) allay_publish::generate::impls: Failed to compile "/Users/henrygao/Desktop/25fall/软件工程/Axolotl-Wiki/themes/Axolotl/custom/blog.html": Template parsing error:   --> 58:23
+   |
+58 |           {- for $p : GLOBAL.PAGES -}
+   |                       ^---
+   |
+   = expected unary
+2025-11-19T14:20:29.752741Z  WARN ThreadId(12) allay_publish::generate::impls: Failed to recompile "/Users/henrygao/Desktop/25fall/软件工程/Axolotl-Wiki/themes/Axolotl/custom/blog.html": Template parsing error:   --> 58:23
+   |
+58 |           {- for $p : GLOBAL.PAGES -}
+   |                       ^---
+   |
+   = expected unary
+2025-11-19T14:20:29.769748Z  WARN ThreadId(13) allay_publish::generate::impls: Failed to recompile "/Users/henrygao/Desktop/25fall/软件工程/Axolotl-Wiki/themes/Axolotl/custom/blog.html": Template parsing error:   --> 58:23
+   |
+58 |           {- for $p : GLOBAL.PAGES -}
+   |                       ^---
+   |
+   = expected unary
+2025-11-19T14:20:29.804204Z  WARN ThreadId(13) allay_publish::generate::impls: Failed to recompile "/Users/henrygao/Desktop/25fall/软件工程/Axolotl-Wiki/themes/Axolotl/custom/blog.html": Template parsing error:   --> 58:23
+   |
+58 |           {- for $p : GLOBAL.PAGES -}
+   |                       ^---
+   |
+   = expected unary
+2025-11-19T14:20:29.821936Z  WARN ThreadId(13) allay_publish::generate::impls: Failed to recompile "/Users/henrygao/Desktop/25fall/软件工程/Axolotl-Wiki/themes/Axolotl/custom/blog.html": Template parsing error:   --> 58:23
+   |
+58 |           {- for $p : GLOBAL.PAGES -}
+   |                       ^---
+   |
+   = expected unary
+2025-11-19T14:20:29.839931Z  WARN ThreadId(13) allay_publish::generate::impls: Failed to recompile "/Users/henrygao/Desktop/25fall/软件工程/Axolotl-Wiki/themes/Axolotl/custom/blog.html": Template parsing error:   --> 58:23
+   |
+58 |           {- for $p : GLOBAL.PAGES -}
+   |                       ^---
+   |
+   = expected unary

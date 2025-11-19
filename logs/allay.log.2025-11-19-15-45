@@ -1,0 +1,12 @@
+2025-11-19T15:45:01.626410Z  WARN ThreadId(12) allay_publish::generate::impls: Failed to recompile "/Users/henrygao/Desktop/25fall/软件工程/Axolotl-Wiki/themes/Axolotl/custom/blog.html": Template parsing error:   --> 58:23
+   |
+58 |           {- for $p : GLOBAL.PAGES -}
+   |                       ^---
+   |
+   = expected unary
+2025-11-19T15:45:01.754801Z  WARN ThreadId(12) allay_publish::generate::impls: Failed to recompile "/Users/henrygao/Desktop/25fall/软件工程/Axolotl-Wiki/themes/Axolotl/custom/blog.html": Template parsing error:   --> 58:23
+   |
+58 |           {- for $p : GLOBAL.PAGES -}
+   |                       ^---
+   |
+   = expected unary

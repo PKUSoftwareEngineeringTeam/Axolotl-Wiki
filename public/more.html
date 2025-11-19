@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ <!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+
+    <title> Alley Story ·  Allay Blog </title>
+
+
+ 
+
+    <link rel="stylesheet" href="/style_official.css" />
+  </head>
+
+  <body>
+    
+
+    <header class="header">
+      <nav class="nav container">
+        <a href="/" class="nav-brand">
+          <span class="axolotl-gradient"> Allay Blog </span>
+        </a>
+
+        <ul class="nav-menu">
+          <li><a href="/" class="nav-link">首页</a></li>
+          <li><a href="/blog.html" class="nav-link">博客</a></li>
+          <li><a href="/about" class="nav-link">关于</a></li>
+          <li><a href="/contact" class="nav-link">联系</a></li>
+        </ul>
+
+        <button class="nav-toggle" aria-label="切换菜单">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div
+          class="theme-switcher"
+          id="themeToggle"
+          aria-label="切换主题"
+        ></div>
+      </nav>
+    </header>
+
+    
+
+    <main class="main">
+      <div class="container">
+        <article class="article fade-in">
+          <header class="article-header">
+ 
+            <h1 class="article-title"> Alley Story </h1>
+ 
+
+ 
+            <p class="article-meta">发布日期： 2025-09-10 </p>
+ 
+          </header>
+
+          <div class="article-content">
+ <h1>Alley Story</h1>
+<p>This is a story about an alley.</p>
+ 
+          </div>
+        </article>
+      </div>
+    </main>
+
+    
+
+    <footer class="site-footer">
+      <div class="container">
+        <span>© Allay Blog </span>
+        <span>由 Allay & Axolotl 主题驱动</span>
+      </div>
+    </footer>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
+
+
+<script>
+    /**
+ * A client for live reloading web pages based on file changes.
+ * It periodically polls the server to check for any modifications in the files,
+ * and if changes are detected, it reloads the page after showing a notification
+ * about which files have been changed.
+ */
+class LiveReloadClient {
+    constructor() {
+        this.pollingInterval = 50; // 50 ms
+        this.lastTimestamps = new Map();
+        this.init().then();
+    }
+
+    async init() {
+        console.log('Live reload client initialized');
+        await this.fetchInitialTimestamps();
+        this.startPolling();
+    }
+
+    /**
+     * Fetches the initial timestamps for files and stores them.
+     * This method sends a request to the server to get the last modified timestamps of files,
+     * then updates the `lastTimestamps` with the received data.
+     */
+    async fetchInitialTimestamps() {
+        try {
+            const response = await fetch('/api/last-modified');
+            const timestamps = await response.json();
+
+            for (const [file, timestamp] of Object.entries(timestamps)) {
+                this.lastTimestamps.set(file, timestamp);
+            }
+
+            console.log('Initial file timestamps loaded');
+        } catch (error) {
+            console.error('Failed to fetch initial timestamps:', error);
+        }
+    }
+
+    startPolling() {
+        setInterval(async () => {
+            await this.checkForChanges();
+        }, this.pollingInterval);
+    }
+
+    /**
+     * Asynchronously checks for changes in the files by comparing the last modified timestamps.
+     * If any file has been modified or deleted, it logs the changes, shows a reload notification,
+     * and reloads the page after a short delay.
+     */
+    async checkForChanges() {
+        try {
+            const response = await fetch('/api/last-modified');
+            const currentTimestamps = await response.json();
+
+            let shouldReload = false;
+            let changedFiles = [];
+
+            for (const [file, timestamp] of Object.entries(currentTimestamps)) {
+                const lastTimestamp = this.lastTimestamps.get(file);
+
+                if (!lastTimestamp || lastTimestamp < timestamp) {
+                    shouldReload = true;
+                    changedFiles.push(file);
+                    this.lastTimestamps.set(file, timestamp);
+                }
+            }
+
+            for (const file of this.lastTimestamps.keys()) {
+                if (!currentTimestamps[file]) {
+                    shouldReload = true;
+                    changedFiles.push(`${file} (deleted)`);
+                    this.lastTimestamps.delete(file);
+                }
+            }
+
+            if (shouldReload) {
+                console.log('Files changed, reloading page:', changedFiles);
+                window.location.reload();
+            }
+        } catch (error) {
+            console.error('Error checking for changes:', error);
+        }
+    }
+}
+
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => {
+        new LiveReloadClient();
+    });
+} else {
+    new LiveReloadClient();
+}
+</script>
+
+</html>

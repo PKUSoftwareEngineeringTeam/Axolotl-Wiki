@@ -1,0 +1,34 @@
+2025-11-09T07:35:14.808842Z  WARN ThreadId(02) allay_publish::generate::impls: Failed to compile "/Users/henrygao/Desktop/25fall/软件工程/Axolotl-Wiki/contents/more.md": Template parsing error:  --> 9:30
+  |
+9 |                 {: this.date | format_date("YYYY年MM月DD日") :}
+  |                              ^---
+  |
+  = expected add_op, mul_op, comparison_op, and_op, or or_op
+2025-11-09T07:35:14.811623Z  WARN ThreadId(03) allay_publish::generate::impls: Failed to compile "/Users/henrygao/Desktop/25fall/软件工程/Axolotl-Wiki/themes/Axolotl/custom/index.html": Template parsing error:   --> 27:63
+   |
+27 |                         <time class="post-date">{: $post.date | format_date("MM月DD日") :}</time>
+   |                                                               ^---
+   |
+   = expected add_op, mul_op, comparison_op, and_op, or or_op
+2025-11-09T07:35:14.814672Z  WARN ThreadId(02) allay_publish::generate::impls: Failed to compile "/Users/henrygao/Desktop/25fall/软件工程/Axolotl-Wiki/contents/hello.md": Template parsing error:  --> 9:30
+  |
+9 |                 {: this.date | format_date("YYYY年MM月DD日") :}
+  |                              ^---
+  |
+  = expected add_op, mul_op, comparison_op, and_op, or or_op
+2025-11-09T07:35:14.818031Z  WARN ThreadId(02) allay_publish::generate::impls: Failed to recompile "/Users/henrygao/Desktop/25fall/软件工程/Axolotl-Wiki/themes/Axolotl/custom/index.html": Template parsing error:   --> 27:63
+   |
+27 |                         <time class="post-date">{: $post.date | format_date("MM月DD日") :}</time>
+   |                                                               ^---
+   |
+   = expected add_op, mul_op, comparison_op, and_op, or or_op
+2025-11-09T07:35:14.823417Z  WARN ThreadId(03) allay_publish::generate::impls: Failed to compile "/Users/henrygao/Desktop/25fall/软件工程/Axolotl-Wiki/themes/Axolotl/custom/404.html": Include path not found: /Users/henrygao/Desktop/25fall/软件工程/Axolotl-Wiki/themes/Axolotl/shortcodes/content
+2025-11-09T07:35:14.826589Z  WARN ThreadId(03) allay_publish::generate::impls: Failed to recompile "/Users/henrygao/Desktop/25fall/软件工程/Axolotl-Wiki/themes/Axolotl/custom/index.html": Template parsing error:   --> 27:63
+   |
+27 |                         <time class="post-date">{: $post.date | format_date("MM月DD日") :}</time>
+   |                                                               ^---
+   |
+   = expected add_op, mul_op, comparison_op, and_op, or or_op
+2025-11-09T07:35:14.879694Z  WARN main ThreadId(01) serving the site: allay_plugin::config: Failed to read config file for plugin 'auth-plugin': File not found: plugin.toml
+2025-11-09T07:35:14.879767Z  WARN main ThreadId(01) serving the site: allay_plugin::config: No config found for plugin 'auth-plugin'
+2025-11-09T07:35:14.881880Z  WARN main ThreadId(01) serving the site: allay_plugin::bus: Error handling async event: error returned from database: (code: 14) unable to open database file
