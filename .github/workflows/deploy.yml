@@ -10,10 +10,17 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - name: Checkout Axolotl-Wiki
+    - name: Checkout Axolotl-Wiki with submodules
       uses: actions/checkout@v4
       with:
         path: 'Axolotl-Wiki'
+        submodules: 'recursive'
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Update submodules to latest
+      run: |
+        cd Axolotl-Wiki
+        git submodule update --remote --recursive
     
     - name: Checkout Allay
       uses: actions/checkout@v4
@@ -42,7 +49,7 @@ jobs:
       run: |
         cd Axolotl-Wiki-Pages
         find . -maxdepth 1 ! -name '.git' ! -name '.' -exec rm -rf {} +
-
+        
         cp -r ../Axolotl-Wiki/public/* ./
         
         git config user.name "github-actions[bot]"
