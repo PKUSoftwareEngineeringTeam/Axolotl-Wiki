@@ -1,3 +1,0 @@
-2025-11-09T09:07:08.076448Z  WARN main ThreadId(01) serving the site: allay_plugin::config: Failed to read config file for plugin 'auth-plugin': File not found: plugin.toml
-2025-11-09T09:07:08.076549Z  WARN main ThreadId(01) serving the site: allay_plugin::config: No config found for plugin 'auth-plugin'
-2025-11-09T09:07:08.078439Z  WARN main ThreadId(01) serving the site: allay_plugin::bus: Error handling async event: error returned from database: (code: 14) unable to open database file
