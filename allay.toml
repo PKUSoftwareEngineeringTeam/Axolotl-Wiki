@@ -1,9 +1,10 @@
 # Default Allay site configuration
-baseUrl = "http://axolotl.wiki"
+base_url = "https://pkusoftwareengineeringteam.github.io/Axolotl-Wiki-Pages/"
 title = "Axolotl Wiki"
 theme = "Axolotl"
 description = "Official Axolotl Wiki"
 author = "Allay Developer"
+
 [params]
 title = "Axolotl Wiki"
 subtitle = "Easy Blog, Starts Here"

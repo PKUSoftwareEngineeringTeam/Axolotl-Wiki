@@ -36,7 +36,7 @@ jobs:
       - name: Build with Allay
         run: |
           cd Allay
-          cargo run --bin=allay -- build --root=../Axolotl-Wiki
+          cargo run --bin=allay -- build --root=../Axolotl-Wiki --online
 
       - name: Checkout Axolotl-Wiki-Pages
         uses: actions/checkout@v4
