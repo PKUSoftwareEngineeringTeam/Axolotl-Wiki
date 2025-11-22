@@ -1,72 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 
- <!DOCTYPE html>
-<html lang="zh-CN" data-theme="light">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
-
-    <title> Allay Blog </title>
-
-
- 
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> 快速开始 </title>
     <link rel="stylesheet" href="/style_official.css" />
-  </head>
-
-  <body>
-    
-
-    <header class="header">
-      <nav class="nav container">
+</head> 
+<head>
+  <link rel="stylesheet" href="/toc.css" />
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
         <a href="/" class="nav-brand">
-          <span class="axolotl-gradient"> Allay Blog </span>
+            <span class="axolotl-gradient"> Axolotl Wiki </span>
         </a>
 
         <ul class="nav-menu">
-          <li><a href="/" class="nav-link">首页</a></li>
-          <li><a href="/blog.html" class="nav-link">博客</a></li>
-          <li><a href="/about" class="nav-link">关于</a></li>
-          <li><a href="/contact" class="nav-link">联系</a></li>
+            <li><a href="/" class="nav-link">首页</a></li>
+            <li><a href="/blog.html" class="nav-link">博客</a></li>
+            <li><a href="/about.html" class="nav-link">关于</a></li>
+            <li><a href="/contact.html" class="nav-link">联系</a></li>
         </ul>
 
-        <button class="nav-toggle" aria-label="切换菜单">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
+        
+    </nav>
+</header> 
 
-        <div
-          class="theme-switcher"
-          id="themeToggle"
-          aria-label="切换主题"
-        ></div>
-      </nav>
-    </header>
-
-    
-
-    <main class="main">
-      <div class="container">
-        <article class="article fade-in">
-          <header class="article-header">
+  <main class="main">
+    <div class="container">
+      <article class="article fade-in">
+        <header class="article-header">
+ 
+          <h1 class="article-title"> 快速开始 </h1>
  
 
  
-          </header>
+        </header>
 
-          <div class="article-content">
- <h1>开始使用</h1>
-<p>欢迎使用 Allay 博客引擎！本指南将帮助你快速创建并运行你的第一个 Allay 博客。</p>
+        <div class="article-content">
+ <p>欢迎使用 Allay 博客引擎！本指南将帮助你快速创建并运行你的第一个 Allay 博客。</p>
 <h2>安装 Allay</h2>
 <p>首先，你需要安装 Allay。你可以通过以下两种方式获取：</p>
 <ol>
 <li>
-<p><strong>下载预编译版本（推荐）</strong>：访问我们的 https://github.com/PKUSoftwareEngineeringTeam/Allay/releases 获取最新的预编译二进制文件</p>
+<p><strong>下载预编译版本（推荐）</strong>：访问我们的 <a href="https://github.com/PKUSoftwareEngineeringTeam/Allay/releases">https://github.com/PKUSoftwareEngineeringTeam/Allay/releases</a> 获取最新的预编译二进制文件</p>
 </li>
 <li>
 <p><strong>从源码构建</strong>：</p>
@@ -101,7 +80,7 @@ allay init
 ├── static/          # 静态资源（图片、PDF等）
 └── themes/          # 主题目录
 </code></pre>
-<p>简单来说，<code>contents/</code> 目录用于存放你的博客内容，<code>static/</code> 目录用于存放静态资源（如图片），<code>themes/</code> 目录用于存放博客主题。更多详情请参见 <a href="./file-structure.html">文件结构</a>。</p>
+<p>简单来说，<code>contents/</code> 目录用于存放你的博客内容，<code>static/</code> 目录用于存放静态资源（如图片），<code>themes/</code> 目录用于存放博客主题。更多详情请参见 <a href="./file-structure.md">文件结构</a>。</p>
 <h2>选择你的主题</h2>
 <p>allay支持用户创作自己的主题，同时也提供一套官方的主题以供选择。我们先从官方主题开始。</p>
 <pre><code class="language-sh">cd themes
@@ -133,25 +112,26 @@ git clone https://github.com/PKUSoftwareEngineeringTeam/Axolotl.git
 <li>在浏览器/vscode中查看实时更新</li>
 </ol>
 <p>尽情享受你的博客创作之旅吧！</p>
+<h2>More....</h2>
+<p>如果你想要了解更多allay“隐藏”语法，请阅读<a href="../allay-template/index.html">allay模版</a></p>
+<p>如果你想要学习如何更好的创建和管理自定义内容，请阅读<a href="../custom-contents/index.html">自定义内容</a></p>
+<p>如果你是我们的高阶用户，想要创作自己的主题，请阅读<a href="../custom-themes/index.html">自定义主题</a></p>
  
-          </div>
-        </article>
-      </div>
-    </main>
+        </div>
+      </article>
+    </div>
+  </main>
 
-    
-
-    <footer class="site-footer">
-      <div class="container">
-        <span>© Allay Blog </span>
+  <footer class="site-footer">
+    <div class="container">
+        <span>© Axolotl Wiki </span>
         <span>由 Allay & Axolotl 主题驱动</span>
-      </div>
-    </footer>
+    </div>
+</footer>
 
-    <script src="/script.js"></script>
-  </body>
-</html>
-
+<script src="/script.js"></script> 
+  <script src="/toc.js"></script>
+</body>
 
 <script>
     /**

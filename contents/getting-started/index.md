@@ -1,4 +1,7 @@
-# 开始使用
+---
+title: 快速开始
+raw: true
+---
 
 欢迎使用 Allay 博客引擎！本指南将帮助你快速创建并运行你的第一个 Allay 博客。
 
@@ -6,9 +9,10 @@
 
 首先，你需要安装 Allay。你可以通过以下两种方式获取：
 
-1. **下载预编译版本（推荐）**：访问我们的 https://github.com/PKUSoftwareEngineeringTeam/Allay/releases 获取最新的预编译二进制文件
+1. **下载预编译版本（推荐）**：访问我们的 <https://github.com/PKUSoftwareEngineeringTeam/Allay/releases> 获取最新的预编译二进制文件
 
 2. **从源码构建**：
+
    ```sh
    # 克隆仓库
    git clone https://github.com/PKUSoftwareEngineeringTeam/Allay
@@ -38,7 +42,6 @@ allay new
 allay init
 ```
 
-
 ## 博客目录结构
 
 现在，你的 Allay 博客包含以下主要目录和文件：
@@ -52,7 +55,8 @@ allay init
 ├── static/          # 静态资源（图片、PDF等）
 └── themes/          # 主题目录
 ```
-简单来说，`contents/` 目录用于存放你的博客内容，`static/` 目录用于存放静态资源（如图片），`themes/` 目录用于存放博客主题。更多详情请参见 [文件结构](./file-structure.html)。
+
+简单来说，`contents/` 目录用于存放你的博客内容，`static/` 目录用于存放静态资源（如图片），`themes/` 目录用于存放博客主题。更多详情请参见 [文件结构](./file-structure.md)。
 
 ## 选择你的主题
 
@@ -78,6 +82,7 @@ allay server
 
 ---
 这将：
+
 - 在 `public/` 目录生成静态文件
 - 启动本地服务器（默认地址：`http://localhost:8000`）
 - 自动检测 `content/` 目录的更改并实时更新
@@ -91,9 +96,18 @@ allay server
 ## 开始创作
 
 现在你可以：
+
 1. 在 `content/` 目录中创建 Markdown 文件来编写博客内容
 2. 将图片等静态资源放入 `static/` 目录
 3. 通过修改 `allay.toml` 文件来自定义博客配置
 4. 在浏览器/vscode中查看实时更新
 
 尽情享受你的博客创作之旅吧！
+
+## More....
+
+如果你想要了解更多allay“隐藏”语法，请阅读[allay模版](../allay-template/index.html)
+
+如果你想要学习如何更好的创建和管理自定义内容，请阅读[自定义内容](../custom-contents/index.html)
+
+如果你是我们的高阶用户，想要创作自己的主题，请阅读[自定义主题](../custom-themes/index.html)

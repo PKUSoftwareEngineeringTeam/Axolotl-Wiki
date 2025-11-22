@@ -1,4 +1,7 @@
-## 文件结构
+---
+title: 博客文件结构
+raw: true
+---
 
 你的博客目录结构如下所示：
 
@@ -18,4 +21,3 @@
 - `shortcodes/`：用于存放你自定义的短代码，可在 Markdown 文件中使用。关于短代码的创建和使用，详见 [短代码](../extra-functions/shortcode.md)。
 - `themes/`：该目录包含博客的主题。你可以为每个主题创建子目录，每个主题可拥有自己的模板和静态文件。关于主题的自定义，详见 [主题](../themes/index.md)。
 - `allay.toml`：博客的主配置文件。你可以在此设置站点标题、基础 URL 和主题等参数。更多详情见 [配置](../configuration/index.md)。
-

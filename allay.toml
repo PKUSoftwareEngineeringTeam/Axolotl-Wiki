@@ -5,4 +5,5 @@ theme = "Axolotl"
 description = "Official Axolotl Wiki"
 author = "Allay Developer"
 [params]
-title = "Allay Blog"
+title = "Axolotl Wiki"
+subtitle = "Easy Blog, Starts Here"

@@ -1,6 +1,3 @@
-[submodule "Axolotl"]
-	path = Axolotl
-	url = https://github.com/PKUSoftwareEngineeringTeam/Axolotl
 [submodule "themes/Axolotl"]
 	path = themes/Axolotl
 	url = https://github.com/PKUSoftwareEngineeringTeam/Axolotl
