@@ -8,3 +8,12 @@ author = "Allay Developer"
 [params]
 title = "Axolotl Wiki"
 subtitle = "Easy Blog, Starts Here"
+[params.gitalk]
+enable = true
+client_id = "Ov23livxBGg30QbIUQse"
+client_secret = 'a0f8e2c1678f075a9c1519e4b4f970356dd55c6c'
+repo = "Axolotl-Wiki"
+owner = "PKUSoftwareEngineeringTeam"
+admin = "LeoDreamer2004"
+title = "Axolotl Wiki Feedback"
+language = "zh-CN"
