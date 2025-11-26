@@ -7,7 +7,7 @@ raw: true
 
 你可以通过将 Markdown 文件添加到 `content` 目录，在 Allay 中创建自定义页面。当你运行 `allay build` 或 `allay server` 命令时，每个 Markdown 文件都会被转换为静态 HTML 页面。
 
-所有 Markdown 文件都应在文件顶部包含 front-matter 元数据。关于可用的元数据字段，请参见 [Front-matter](./front-matter.html)。
+所有 Markdown 文件都应在文件顶部包含 front-matter 元数据。关于可用的元数据字段，请参见 [Front-matter](./front-matter)。
 
 ## 文件组织
 
@@ -37,7 +37,7 @@ public
     └── project1.html   # 来自 projects/project1.md
 ```
 
-如果你采用了类似的多级目录，并写有多个对应的[模版布局](../allay-template/layout.md),那么你可以在目录的index文件和其他文件中采用不同的template配置。比如：
+如果你采用了类似的多级目录，并写有多个对应的[模版布局](../allay-template/layout),那么你可以在目录的index文件和其他文件中采用不同的template配置。比如：
 
 `public/blog/index.html`:
 

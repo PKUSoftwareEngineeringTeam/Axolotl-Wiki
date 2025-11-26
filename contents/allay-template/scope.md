@@ -51,7 +51,7 @@ footer = "Axolotl Theme, 2025"
 
 对于每个 markdown 页面，Allay 会解析其 front-matter 并传递到页面作用域。
 
-在常规页面（如 `page.html`）的 [模板](./layouts.md) 中，可以通过当前页面对象 `.` 直接访问 front-matter 参数，并通过特殊变量 `.content` 获取 markdown 文件内容。
+在常规页面（如 `page.html`）的 [模板](./layouts) 中，可以通过当前页面对象 `.` 直接访问 front-matter 参数，并通过特殊变量 `.content` 获取 markdown 文件内容。
 
 基本用法示例：
 

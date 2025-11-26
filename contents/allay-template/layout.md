@@ -9,7 +9,7 @@ raw: true
 
 - `page.html`：常规页面的默认模板。
 
-当 markdown--[front matter](../custom-contents/front-matter.html) 中未指定 url 字段时，Allay 会使用 `page.html` 模板渲染页面。
+当 markdown--[front matter](../custom-contents/front-matter) 中未指定 url 字段时，Allay 会使用 `page.html` 模板渲染页面。
 
 ### 自定义模板布局
 

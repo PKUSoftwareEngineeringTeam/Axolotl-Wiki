@@ -56,7 +56,7 @@ allay init
 └── themes/          # 主题目录
 ```
 
-简单来说，`contents/` 目录用于存放你的博客内容，`static/` 目录用于存放静态资源（如图片），`themes/` 目录用于存放博客主题。更多详情请参见 [文件结构](./file-structure.md)。
+简单来说，`contents/` 目录用于存放你的博客内容，`static/` 目录用于存放静态资源（如图片），`themes/` 目录用于存放博客主题。更多详情请参见 [文件结构](./file-structure)。
 
 ## 选择你的主题
 
@@ -106,8 +106,8 @@ allay server
 
 ## More....
 
-如果你想要了解更多allay“隐藏”语法，请阅读[allay模版](../allay-template/index.html)
+如果你想要了解更多allay“隐藏”语法，请阅读[allay模版](../allay-template/)
 
-如果你想要学习如何更好的创建和管理自定义内容，请阅读[自定义内容](../custom-contents/index.html)
+如果你想要学习如何更好的创建和管理自定义内容，请阅读[自定义内容](../custom-contents/)
 
-如果你是我们的高阶用户，想要创作自己的主题，请阅读[自定义主题](../custom-themes/index.html)
+如果你是我们的高阶用户，想要创作自己的主题，请阅读[自定义主题](../custom-themes/)

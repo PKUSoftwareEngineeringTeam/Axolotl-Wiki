@@ -226,10 +226,10 @@ template: index.html
 
 详细用法请参见：
 
-- [Commands 指令详解](./commands.html)
-- [Scope 作用域详解](./scope.html)
-- [Variables 变量详解](./variables.html)
-- [Layouts 布局详解](./layouts.html)
+- [Commands 指令详解](./commands)
+- [Scope 作用域详解](./scope)
+- [Variables 变量详解](./variables)
+- [Layouts 布局详解](./layouts)
 
 ## 最终渲染结果
 
