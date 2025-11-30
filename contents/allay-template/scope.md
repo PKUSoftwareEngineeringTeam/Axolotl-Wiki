@@ -1,6 +1,10 @@
 ---
-title: Allay 模板作用域
+title: 作用域
 raw: true
+description: Allay 模板系统中的变量作用域
+tags: ["Allay 功能", "模板", "作用域"]
+date: 2025-11-24
+group: Allay 模板
 ---
 
 `templates` 目录中的每个 html 文件都有自己的变量作用域。使用 `{: . :}` 访问当前作用域。

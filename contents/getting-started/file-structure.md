@@ -1,6 +1,9 @@
 ---
 title: 博客文件结构
-raw: true
+date: 2025-11-20
+group: 快速开始
+description: 了解 Allay 博客的目录和文件组织方式
+tags: ["Allay 入门", "文件结构", "快速开始"]
 ---
 
 你的博客目录结构如下所示：

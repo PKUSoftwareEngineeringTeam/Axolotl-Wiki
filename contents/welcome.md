@@ -1,5 +1,9 @@
 ---
 title: 欢迎使用 Allay
+date: 2025-11-19
+group: 快速开始
+description: 欢迎查阅 Allay 博客引擎的用户文档
+tags: ["Allay 入门", "用户文档"]
 ---
 
 欢迎查阅 Allay 博客引擎的用户文档！本指南将帮助您开始设置和使用 Allay，以便创建和管理您的博客。

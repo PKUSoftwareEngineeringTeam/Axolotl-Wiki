@@ -1,6 +1,10 @@
 ---
 title: Allay 模板实战
 raw: true
+description: 通过实战示例学习 Allay 模板系统的综合应用
+tags: ["Allay 功能", "模板", "实战"]
+date: 2025-11-25
+group: Allay 模板
 ---
 
 本指南将通过构建一个显示两篇文章的主页，串联讲解 Commands、Layouts、Scope 和 Variables 的实际应用。

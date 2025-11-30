@@ -1,5 +1,9 @@
 ---
-title: 快速开始
+title: 安装与使用
+date: 2025-11-20
+group: 快速开始
+description: 你的 Allay 旅程，从这里开始！
+tags: ["Allay 入门", "安装指南", "快速开始"]
 raw: true
 ---
 

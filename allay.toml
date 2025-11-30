@@ -8,6 +8,19 @@ author = "Allay Developer"
 [params]
 title = "Axolotl Wiki"
 subtitle = "Easy Blog, Starts Here"
+author = "Allay 团队"
+intro = "Building the Future of Static Blogging."
+bio = "欢迎来到 Axolotl Wiki！我们致力于为您提供一个简洁、高效且易于使用的静态博客平台。"
+email = "www.allay@example.com"
+location = "中国，北京"
+github_repo = "https://github.com/PKUSoftwareEngineeringTeam/Axolotl-Wiki"
+
+[params.links]
+github = "https://github.com/PKUSoftwareEngineeringTeam"
+twitter = "https://twitter.com/"
+instagram = "https://www.instagram.com/"
+weibo = "https://weibo.com/"
+
 [params.gitalk]
 enable = true
 client_id = "Ov23livxBGg30QbIUQse"

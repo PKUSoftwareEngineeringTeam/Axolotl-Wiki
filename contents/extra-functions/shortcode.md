@@ -1,5 +1,9 @@
 ---
-title: 额外功能——短代码
+title: 短代码
+group: 额外功能
+date: 2025-11-24
+description: 了解如何在 Allay 博客中使用短代码来增强内容的动态性和可复用性
+tags: ["Allay 功能", "短代码", "内容增强"]
 raw: true
 ---
 

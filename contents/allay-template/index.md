@@ -1,6 +1,10 @@
 ---
 title: Allay 模板
 raw: true
+description: 了解 Allay 模板系统及其语法
+tags: ["Allay 功能", "模板", "主题"]
+date: 2025-11-22
+group: Allay 模板
 ---
 
 Allay 使用模板系统来定义博客的外观和布局。模板文件通常采用 HTML 格式，并包含特定的占位符，用于动态插入内容。

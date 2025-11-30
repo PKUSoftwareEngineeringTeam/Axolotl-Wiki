@@ -1,6 +1,10 @@
 ---
-title: Allay 模板引擎用户指南
+title: 模板指令
 raw: true
+description: Allay 模板引擎的语法和使用方法详解
+tags: ["Allay 功能", "模板", "语法"]
+date: 2025-11-27
+group: Allay 模板
 ---
 
 ## 基本语法

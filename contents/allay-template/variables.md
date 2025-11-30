@@ -1,6 +1,10 @@
 ---
-title: Allay 模板变量
+title: 变量
 raw: true
+description: Allay 模板系统中的变量使用方法
+tags: ["Allay 功能", "模板", "变量"]
+date: 2025-11-26
+group: Allay 模板
 ---
 
 ## 类型

@@ -1,13 +1,15 @@
 ---
 title: 自定义布局模板
 raw: true
+description: 创建和使用自定义布局模板
+tags: ["Allay 功能", "模板", "布局"]
+date: 2025-11-23
+group: Allay 模板
 ---
 
 ## 布局
 
-所有的 Allay 模板都应放在 `templates` 目录下。你至少需要包含以下默认模板：
-
-- `page.html`：常规页面的默认模板。
+所有的 Allay 模板都应放在 `templates` 目录下。你至少需要包含 `page.html` 作为常规页面的默认模板。
 
 当 markdown--[front matter](../custom-contents/front-matter) 中未指定 url 字段时，Allay 会使用 `page.html` 模板渲染页面。
 

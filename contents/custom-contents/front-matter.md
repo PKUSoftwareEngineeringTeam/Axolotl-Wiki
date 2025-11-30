@@ -1,6 +1,10 @@
 ---
 title: 自定义前置元数据
 raw: true
+description: 使用自定义前置元数据（front matter）
+tags: ["Allay 内容", "Front-matter"]
+date: 2025-11-24
+group: 自定义内容
 ---
 
 

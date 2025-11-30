@@ -1,6 +1,10 @@
 ---
 title: Allay 配置指南
 raw: true
+date: 2025-11-21
+group: 配置
+description: 配置你的 Allay 博客以满足你的需求
+tags: ["Allay 配置", "博客设置", "自定义"]
 ---
 
 Allay 可以通过在站点根目录放置一个 `allay.toml` 文件进行配置。该文件允许你设置各种参数，以控制站点的行为和外观。

@@ -1,6 +1,10 @@
 ---
 title: 主题文件结构
 raw: true
+date: 2025-11-24
+group: 主题定制
+description: Allay 博客创建自定义主题及其所需的文件结构
+tags: ["Allay 主题", "自定义主题", "主题结构"]
 ---
 
 ## 文件结构

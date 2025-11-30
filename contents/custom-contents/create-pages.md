@@ -1,6 +1,10 @@
 ---
 title: 创建自定义页面
 raw: true
+description: 在 Allay 博客中创建和组织自定义页面
+date: 2025-11-24
+group: 自定义内容
+tags: ["Allay 内容", "自定义页面", "Markdown"]
 ---
 
 ## 创建页面

@@ -1,10 +1,11 @@
 ---
 template: "about.html" 
+title: Building the Future of Static Blogging.
 hidden: true
 friends:
     - url: "https://github.com/"
       name: "GitHub"
-      intro: "世界软件由此而起"
+      intro: "开源，由此而起"
     - url: "https://gohugo.io"
       name: "Hugo"
       intro: "快速且灵活的静态网站生成器，本引擎的灵感来源"
@@ -12,8 +13,6 @@ friends:
       name: "Rust"
       intro: "安全且高效的系统编程语言"
 ---
-
-# Building the Future of Static Blogging.
 
 ---
 
