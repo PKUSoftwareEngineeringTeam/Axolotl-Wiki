@@ -5,8 +5,15 @@ theme = "Axolotl"
 description = "Official Axolotl Wiki"
 author = "Allay Developer"
 
-[plugins]
-plugin_sort_page = { url = "https://github.com/PKUSoftwareEngineeringTeam/Allay/releases/download/plugin-sort-page-v0.1.0/plugin_sort_page.wasm" }
+[plugins.plugin_sort_page]
+git = "https://github.com/PKUSoftwareEngineeringTeam/Allay"
+tag = "plugin-sort-page-v0.1.0"
+file = "plugin_sort_page.wasm"
+
+[plugins.plugin_reading_time]
+git = "https://github.com/PKUSoftwareEngineeringTeam/Allay"
+tag = "plugin-reading-time-v0.1.0"
+file = "plugin_reading_time.wasm"
 
 [params]
 title = "Axolotl Wiki"
