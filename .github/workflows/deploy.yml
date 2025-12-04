@@ -38,9 +38,9 @@ jobs:
           cd Allay
           cargo build --bin allay
 
-      - name: Update Allay plugins
-        run: |
-          ./Allay/target/debug/allay plugin update --root=../Axolotl-Wiki
+      # - name: Update Allay plugins
+      #   run: |
+      #     ./Allay/target/debug/allay plugin update --root=../Axolotl-Wiki
 
       - name: Build with Allay
         run: |
