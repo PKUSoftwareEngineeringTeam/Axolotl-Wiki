@@ -13,7 +13,7 @@ raw: true
 
 首先，你需要安装 Allay。你可以通过以下两种方式获取：
 
-1. **下载预编译版本（推荐）**：访问我们的 <https://github.com/PKUSoftwareEngineeringTeam/Allay/releases> 获取最新的预编译二进制文件
+1. **下载预编译版本**：访问我们的 [发布页面](https://github.com/PKUSoftwareEngineeringTeam/Allay/releases) 获取最新的预编译二进制文件
 
 2. **从源码构建**：
 
@@ -31,15 +31,13 @@ raw: true
 
 建议将可执行文件添加到系统 PATH 中以便全局使用。
 
-## 安装allay插件
+## 安装 vscode 插件
 
-如果你使用的是vscode编辑器，强烈建议安装allay插件以获得更好的编辑体验。请按照以下步骤操作：
-
-### （Todo）
+如果你使用的是 vscode 编辑器，你可以安装 [allay-vscode](https://github.com/PKUSoftwareEngineeringTeam/Allay_vscode) 插件以获得更好的编辑体验。
 
 ## 初始化
 
-现在，在命令行新建一个文件夹存放你的博客，然后输入
+现在，在命令行新建一个文件夹存放你的博客，然后执行
 
 ```sh
 allay new
@@ -79,21 +77,18 @@ git clone https://github.com/PKUSoftwareEngineeringTeam/Axolotl.git
 进入你的博客目录，运行以下命令启动本地开发服务器：
 
 ```sh
-allay server
+allay serve
 ```
 
 我们的本地服务器现已启动！
 
----
 这将：
 
 - 在 `public/` 目录生成静态文件
 - 启动本地服务器（默认地址：`http://localhost:8000`）
-- 自动检测 `content/` 目录的更改并实时更新
+- 由于我们提供了热重载机制, 自动检测文件的更改并实时更新
 
 如果端口 8000 已被占用，你可以通过配置指定其他端口。
-
----
 
 当然，如果你已经安装了vscode插件，你可以点击右上角的眼睛图标，直接在vscode中启动本地服务器，并预览博客效果。
 
@@ -101,7 +96,7 @@ allay server
 
 现在你可以：
 
-1. 在 `content/` 目录中创建 Markdown 文件来编写博客内容
+1. 在 `contents/` 目录中创建 Markdown 文件来编写博客内容
 2. 将图片等静态资源放入 `static/` 目录
 3. 通过修改 `allay.toml` 文件来自定义博客配置
 4. 在浏览器/vscode中查看实时更新

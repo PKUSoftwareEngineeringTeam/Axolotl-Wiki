@@ -1,5 +1,5 @@
 ---
-title: Allay 模板实战
+title: 实战
 raw: true
 description: 通过实战示例学习 Allay 模板系统的综合应用
 tags: ["Allay 功能", "模板", "实战"]

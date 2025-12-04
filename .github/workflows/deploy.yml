@@ -33,10 +33,18 @@ jobs:
         with:
           toolchain: stable
 
-      - name: Build with Allay
+      - name: Build Allay
         run: |
           cd Allay
-          cargo run --bin=allay -- build --root=../Axolotl-Wiki --online
+          cargo build --bin allay
+
+      - name: Update Allay plugins
+        run: |
+          ./Allay/target/debug/allay plugin update --root=../Axolotl-Wiki
+
+      - name: Build with Allay
+        run: |
+          ./Allay/target/debug/allay build --root=../Axolotl-Wiki --online
 
       - name: Checkout Axolotl-Wiki-Pages
         uses: actions/checkout@v4

@@ -1,5 +1,5 @@
 ---
-title: 自定义布局模板
+title: 自定义布局
 raw: true
 description: 创建和使用自定义布局模板
 tags: ["Allay 功能", "模板", "布局"]

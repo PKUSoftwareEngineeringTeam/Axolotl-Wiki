@@ -5,9 +5,12 @@ theme = "Axolotl"
 description = "Official Axolotl Wiki"
 author = "Allay Developer"
 
+[plugins]
+plugin_sort_page = { url = "https://github.com/PKUSoftwareEngineeringTeam/Allay/releases/download/plugin-sort-page-v0.1.0/plugin_sort_page.wasm" }
+
 [params]
 title = "Axolotl Wiki"
-subtitle = "Easy Blog, Starts Here"
+subtitle = "Building the Future of Static Blogging."
 author = "Allay 团队"
 intro = "Building the Future of Static Blogging."
 bio = "欢迎来到 Axolotl Wiki！我们致力于为您提供一个简洁、高效且易于使用的静态博客引擎。"
@@ -20,6 +23,10 @@ github = "https://github.com/PKUSoftwareEngineeringTeam"
 twitter = "https://twitter.com/"
 instagram = "https://www.instagram.com/"
 weibo = "https://weibo.com/"
+
+[params.footer]
+year = 2024
+note = "Why this name?... Minecraft."
 
 [params.gitalk]
 enable = true
